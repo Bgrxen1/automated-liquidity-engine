@@ -9,11 +9,11 @@ The goal of these studies is to:
 - and make that data easy to consume from Python.
 
 ## Contents
-**Zone_export.cpp**
+-**Zone_export.cpp**
   This study opens the container in which the extension lines are collected, iterates through the lines and outputs every line in a standard format into a csv file.
-**Liquidity_trend.cpp**
+-**Liquidity_trend.cpp**
   This study calculates the Current accepted Liquidity inside Sierrachart instead of the python engine. This saves a couple miliseconds within the whole engine when used. as a study and outputs a 1 or -1 based on if the last accepted liquidity was   created above or below price. 
-**Liquidity_trendV2.cpp**
+-**Liquidity_trendV2.cpp**
   This study calculates the current accepted liquidity based on the current prices and groups liquidity from the current price period and outside period, looking for acceptance of liquidity of the outside price period.
   
 ## How this integrates with the project
