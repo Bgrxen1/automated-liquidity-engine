@@ -19,13 +19,16 @@ The system combines multiple real-time data sources, processing them through the
 
 ## Example outputs
 ### This picture shows the minutely update from the engine into a discord webhook showing the  flipping of bias:
-![discord_output](data/pictures/discord_output_example.png)
+<img src="data/pictures/discord_output_example.png" width="450">
+
 ### This picture shows the output that is generated everytime the engine does a full run so I could track how fast it was calculating: (note 5 second sleep timer)
 <img src="data/pictures/python_output_example.png" width="450">
+
 ### This picture shows the chart that is posted to discord every hour
-![discord_hour_output](data/pictures/image.png)
+<img src="data/pictures/image.png" width="450">
+
 ### This picture shows a chart of a full day of signals
-![day_signals_output](data/pictures/full_day_example.png)
+<img src="data/pictures/full_day_example.png" width="450">
 
 
 ## Documentation
