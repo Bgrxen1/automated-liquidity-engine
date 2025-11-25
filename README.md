@@ -2,3 +2,10 @@
 A Python-based live trading engine that processes market data from Sierra Chart, combines it with real-time option delta signals from AWS, and generates automated execution decisions.
 The system also includes visualization, Discord notifications, and modular Sierra Chart studies written in ASCIL (Derrivative of C++).
 
+## System Architecture
+The system combines multiple real-time data sources, processing them through the Python Engine, and routing trading decisions to Sierra Chart via a bridge while outputting analytics to Discord as shown in the picture below.
+![System Architecture](data/pictures/System_architecture.png)
+
+## Example outputs
+![discord_output](data/pictures/discord_output_example.png)
+![python_output]data/pictures/python_output_example.png)
