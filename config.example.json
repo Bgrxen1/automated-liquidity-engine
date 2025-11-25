@@ -1,0 +1,21 @@
+{
+  "file_path": "ESZ5.CME-BarStudyData.csv",
+  "specific_day": "2025-11-25", 
+  "trade_key": "Bgrxen_algo_sim",
+  "sleep_interval": 1, 
+  "full_trade_quantity": 4, 
+  "first_OCO_quantity": 1, 
+  "Second_OCO_quantity": 2,
+  "Third_OCO_quantity": 1,
+  "Minimum_Risk/Reward": 1, 
+  "Deltabot_interval": 60, 
+  "file_path_delta": "optiondelta.txt",
+   "Risk_per_trade": 1000,
+   "Tick_value": 12.5,
+   "Trade_time_open": "16:05",
+   "Trade_time_close": "21:15",
+   "Deltabot_downloadtime": "15:45",
+   "Flatten_positions_time": "21:55",
+   "Maximum_loss_per_day": 3000,
+   "Profit_target": 5000
+}
