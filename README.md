@@ -7,5 +7,7 @@ The system combines multiple real-time data sources, processing them through the
 ![System Architecture](data/pictures/System_architecture.png)
 
 ## Example outputs
+This picture shows the minutely update from the engine into a discord webhook showing the  flipping of bias:
 ![discord_output](data/pictures/discord_output_example.png)
-![python_output]data/pictures/python_output_example.png)
+This picture shows the output that is generated everytime the engine does a full run so I could track how fast it was calculating: (note 5 second sleep timer)
+![python_output](data/pictures/python_output_example.png)
