@@ -3,6 +3,13 @@ This folder contains the Python code for the real-time execution engine that pow
 The engine reads market structure & option delta data, evaluates liquidity conditions, derives directional bias, and executes trades with a rule-based risk framework.
 The system is designed purely for research and learning.
 
+## Quickstart
+Prerequisites
+- Python 3.10+ 
+- pip or Poetry
+- Access to input data exports (per-minute bars, Sierra Chart liquidity, delta data)
+- Optional: Discord webhook for alerts
+  
 ## Contents
 The engine performs the following tasks:
 
