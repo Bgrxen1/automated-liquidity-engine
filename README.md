@@ -56,7 +56,6 @@ automated-liquidity-engine/
 |
 └── .gitignore
 
-
 ## Documentation
 - [Engine Documentation](liquidity_engine/README.md)
 - [Sierra Chart Studies](sierrachart/README.md)
