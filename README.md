@@ -7,15 +7,15 @@ The system combines multiple real-time data sources, processing them through the
 ![System Architecture](data/pictures/System_architecture.png)
 
 ### How It Works (High-Level)
-1. Market data arrives from Sierra Chart.
-2. Option delta values are downloaded from AWS.
-3. The Python Engine processes both streams:
-  - builds liquidity zones
-  - detects reactions
-  - calculates directional bias
-  - determines valid trade entries/exits
-4. The Execution Layer sends trade actions to Sierra Chart.
-5. Discord Output provides live signals and summary messages.
+1. **Market data** arrives from Sierra Chart.  
+2. **Option delta** values are downloaded from AWS.  
+3. The **Python Engine** processes both streams by:
+   - building liquidity zones  
+   - detecting price reactions  
+   - calculating directional bias  
+   - determining valid trade entries/exits  
+4. The **Execution Layer** sends trade actions to Sierra Chart.  
+5. **Discord Output** provides live signals and summary messages.
 
 ## Example outputs
 ### This picture shows the minutely update from the engine into a discord webhook showing the  flipping of bias:
