@@ -11,3 +11,7 @@ This picture shows the minutely update from the engine into a discord webhook sh
 ![discord_output](data/pictures/discord_output_example.png)
 This picture shows the output that is generated everytime the engine does a full run so I could track how fast it was calculating: (note 5 second sleep timer)
 ![python_output](data/pictures/python_output_example.png)
+
+## Documentation
+- [Engine Documentation](liquidity_engine/README.md)
+- [Sierra Chart Studies](sierrachart/README.md)
