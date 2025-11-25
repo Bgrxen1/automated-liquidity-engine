@@ -27,25 +27,6 @@ The system combines multiple real-time data sources, processing them through the
 ### This picture shows a chart of a full day of signals
 ![day_signals_output](data/pictures/full_day_example.png)
 
-## Repository Structure
-
-automated-liquidity-engine/
-│
-├── README.md               # Main documentation
-├── config.example.json     # Example engine configuration
-│
-├── data/
-│   └── data_examples/      # Sample datasets for testing
-│
-├── images/                 # Architecture and output screenshots
-│
-├── liquidity_engine/
-│   ├── README.md           # Engine documentation
-│   ├── trading_engine.ipynb
-│   └── sierra_chart/       # Sierra Chart studies (C++)
-│       └── README.md
-│
-└── LICENSE                 # MIT license
 
 ## Documentation
 - [Engine Documentation](liquidity_engine/README.md)
