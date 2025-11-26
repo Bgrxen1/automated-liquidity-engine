@@ -63,6 +63,3 @@ automated-liquidity-engine/
 - [Engine Documentation](liquidity_engine/README.md)
 - [Sierra Chart Studies](sierrachart/README.md)
 
-## License
-This project is licensed under the MIT License.  
-See the LICENSE file for details.
