@@ -35,27 +35,28 @@ The system combines multiple real-time data sources, processing them through the
 ```
 automated-liquidity-engine/
 |
-├── README.md
 ├── config.example.json
-├── LICENSE
 |
 ├── data/
 │   └── data_examples/
 │       ├── ES_data_example.csv
 │       └── zone_data_example.csv
 |
-├── images/
-│   ├── System_architecture.png
-│   ├── python_output_example.png
-│   └── execution_example.png
+|   └──pictures/
+│      ├── System_architecture.png
+│      ├── python_output_example.png
+│      ├── discord_output_example.png
+│      ├── full_day_example.png
+│      ├── execution_example.png
+│      ├── image.png
+│      └── execution_example.png
 |
 ├── liquidity_engine/
 │   ├── README.md
 │   ├── trading_engine.ipynb
 │   └── sierra_chart/
 │       └── README.md
-|
-└── .gitignore
+└── README.md
 ```
 
 
